@@ -5,33 +5,94 @@ const meta = {
 	description: "I'm a starter theme for Astro.build",
 	title: "About",
 };
+
+const tools = [
+  "FastAPI",
+  "PostgreSQL",
+  "MongoDB",
+  "Docker",
+  "Redis",
+  "Flask",
+  "Django",
+  "AWS",
+  "Azure",
+  "Git",
+  "Socket Prog.",
+  "OOPs",
+  "Multiprocessing"
+];
 ---
+
+<style>
+  .tag-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin: 1rem 0;
+  }
+
+  .tag {
+    padding: 0.15rem 0.5rem;
+    background-color: #C8C9CB;
+    border: 1px solid #e5e7eb;
+    border-radius: 1rem;
+    font-size: 0.875rem;
+    font-weight: 500;
+    color: #374151;
+    transition: background-color 0.3s ease;
+  }
+
+  .tag:hover {
+    background-color: #e5e7eb;
+    cursor: pointer;
+  }
+</style>
+
+
 
 <PageLayout meta={meta}>
 	<h1 class="title mb-6">About</h1>
 	<div class="prose prose-sm prose-cactus max-w-none">
 		<p>
-			Hi, I’m a starter Astro. I’m particularly great for getting you started with your own blogging
-			website.
+			I’m an undergraduate student in the Department of Computer Science and Engineering at IIT Kharagpur, You will mostly find me debugging or sleeping or may be both (sometimes).
 		</p>
-		<p>Here are my some of my awesome built in features:</p>
-		<ul class="list-inside list-disc" role="list">
-			<li>I'm ultra fast as I'm a static site</li>
-			<li>I'm fully responsive</li>
-			<li>I come with a light and dark mode</li>
-			<li>I'm easy to customise and add additional content</li>
-			<li>I have Tailwind CSS styling</li>
-			<li>Shiki code syntax highlighting</li>
-			<li>Satori for auto generating OG images for blog posts</li>
-		</ul>
-		<p>
-			Clone or fork my <a
+		<h1 class="title mb-6">Tech Stack</h1>
+		<p>I enjoy experimenting with code and making stuff work.
+
+If I had to describe my background, I’d compare it to a layered cake. The foundation is Operating Systems and Networks, the filling is Distributed Systems, and the icing depends on the specific project I’m tackling.
+
+<p>I’ve worked on building reliable servers, optimizing data handling pipelines, and understanding how to make systems talk to each other seamlessly. Lately, I’ve been exploring design patterns and scalability techniques.
+My current OS of choice is Ubuntu 22.04, because, well, why not? For a more detailed look at my work,  <a
 				aria-label="github repository"
 				class="cactus-link inline-block"
-				href="https://github.com/chrismwilliams/astro-cactus"
+				href="https://github.com/harshsharma2024"
 				rel="noreferrer"
-				target="_blank">repo</a
-			> if you like me!
-		</p>
+				target="_blank">Github</a
+			> or <a
+				aria-label="github repository"
+				class="cactus-link inline-block"
+				href="https://harshsharma2024.github.io/harshsharma2024"
+				rel="noreferrer"
+				target="_blank">page</a
+			> is probably the place to go.
+
+</p>
+
+<p>Few of the tools/frameworks I am aware of:</p>
+<div class="tag-container">
+  {tools.map((tool) => (
+    <span class="tag">{tool}</span>
+  ))}
+</div>
+</p>
+
+	<h1 class="title mb-6">Non Tech Stack</h1>
+
+	<p>
+	Movies, Songs or a round of 2.2, May be playing badminton, hockey when I am frustrated and thats all :)
+	</p>
+
+
 	</div>
+
 </PageLayout>
