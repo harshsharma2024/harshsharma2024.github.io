@@ -3,9 +3,15 @@ title: "Building Scalable Architectures through Docker Containers"
 description: "Unlock the power of Docker to streamline and scale your microservices architecture. This guide explores best practices for containerizing individual components, ensuring seamless integration and deployment across diverse environments. Whether you're aiming for efficient scaling or simplified development pipelines, Docker offers the flexibility and reliability needed for modern applications."
 publishDate: "8 Dec 2024"
 tags: ["Docker","PostgreSQL", "Microservices", "Google API", "Containerization", "Scalability", "DevOps"]
-draft: true
+# draft: true
 ---
 
+
+```md
+[NOTE]
+Currently I am covering the brief overview of the project, I will soon be updating it with the Exact Architecture and Github Code link.
+
+```
 
 ## Project Overview
 
