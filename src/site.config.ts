@@ -38,7 +38,7 @@ export const menuLinks: { path: string; title: string }[] = [
 		title: "Blog",
 	},
 	{
-		path: "https://drive.google.com/file/d/1BG8wrl8vI3SeMSjWUsQ1llpbEb5JMaUP/view?usp=sharing",
+		path: "https://drive.google.com/file/d/16FS8ozemVv0XjndcN7sNMMSO6Pp2XOT8/view?usp=sharing",
 		title: "Resume",
 		external: true,
 	},
